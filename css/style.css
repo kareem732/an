@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #24353f;
+
+}
+.container{
+    width: 55%;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.contac{
+    padding: 50px;
+}
+h1{
+    Margin:0px 0px 8px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #17a2b8;
+}
+.username,.username:focus{
+    background-color: transparent;
+    color: white !important;
+    
+}
+.username:focus{
+    
+   box-shadow:none !important;
+}
+::placeholder{
+    color: #ffffffbd !important;
+}
+.submit{
+    border: 2px solid #17a2b8 !important;
+    transition: backgroun 0.5s ;
+    color: #17a2b8 !important;
+}
+.submit:hover{
+    background-color: #17a2b8;
+    color: #fff !important;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
